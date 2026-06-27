@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bdyp538fqygcq"]
+
+[ext_resource type="Script" uid="uid://be4sedno7prsu" path="res://hud.gd" id="1_e2407"]
+
+[node name="HUD" type="CanvasLayer" unique_id=1078436106]
+script = ExtResource("1_e2407")
+
+[node name="CurrentLevel" type="Label" parent="." unique_id=1479015582]
+offset_left = 28.0
+offset_top = 11.0
+offset_right = 82.0
+offset_bottom = 37.0
+text = "Level 3"
+metadata/_edit_use_anchors_ = true
+
+[node name="GemsLabel" type="Label" parent="." unique_id=753754617]
+offset_left = 28.0
+offset_top = 41.0
+offset_right = 90.0
+offset_bottom = 67.0
+text = "Gems: 0"

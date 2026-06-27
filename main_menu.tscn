@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://dh2na2l3qky5b"]
+
+[ext_resource type="Script" uid="uid://s5iy3o7eygxs" path="res://main_menu.gd" id="1_r02ye"]
+[ext_resource type="Texture2D" uid="uid://bpeaopv5u36mr" path="res://menu-background.png" id="2_7vrkn"]
+
+[node name="MainMenu" type="Node2D" unique_id=1540475526]
+position = Vector2(0, -12)
+script = ExtResource("1_r02ye")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1397327879]
+texture_filter = 2
+position = Vector2(600.00006, 320.00003)
+scale = Vector2(5.303572, 3.9361115)
+texture = ExtResource("2_7vrkn")
+
+[node name="TitleLabel" type="Label" parent="." unique_id=2098153587]
+offset_left = -169.0
+offset_top = 107.0
+offset_right = 980.0
+offset_bottom = 186.0
+theme_type_variation = &"HeaderLarge"
+theme_override_font_sizes/font_size = 42
+text = "Copa Runner"
+horizontal_alignment = 1
+
+[node name="Options" type="VFlowContainer" parent="." unique_id=1257388548]
+offset_left = 367.0
+offset_top = 174.0
+offset_right = 509.0
+offset_bottom = 413.0
+
+[node name="StartButton" type="Button" parent="Options" unique_id=969579159]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Começar"
+
+[node name="QuitButton" type="Button" parent="Options" unique_id=646728176]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Sair
+"
+
+[connection signal="pressed" from="Options/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="Options/QuitButton" to="." method="_on_quit_button_pressed"]
