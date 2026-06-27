@@ -1,15 +1,11 @@
-# Godot 2D Platformer Starter Kit
+# Copa Runner - Godot 2D
 
-![Godot 2D Platformer Short](https://user-images.githubusercontent.com/928367/235163759-a4006cf2-a6b9-48d0-86c8-0efcaab9b9b1.gif)
+Jogo 2D de corrida e desvio de obstáculos, onde um jogador de futebol deve passar de gol em gol até chegar no último.
+- [🕹️ Jogue pelo Browser](https://oguedes.itch.io/copa-runner)
 
-Complete 2D platformer template made in Godot 4 with three levels, music, sfx, and a main menu. Ready for you to take and make an awesome game with.
+## Creditos
 
-- [🕹️ Play the Demo](https://brettchalupa.itch.io/godot-2d-platformer)
-- [📺 Watch the Tutorial](https://www.youtube.com/watch?v=FNEAJsry5sA)
-
-## Credits
-
-- Template Code: [Brett Chalupa](https://www.brettchalupa.com) (CC0, dedicated to public domain)
-- Sprites: [1-Bit Platformer Pack by Kenney](https://kenney.nl/assets/1-bit-platformer-pack) (CC0)
-- Music: [Ted Kerr](https://opengameart.org/users/wolfgang) (CC-BY 4.0) - [8-Bit Theme](https://opengameart.org/content/8-bit-theme) & [8-Bit Quirky Waltz](https://opengameart.org/content/8-bit-quirky-waltz)
-- Sound Effects: [jsfxr](https://sfxr.me/)
+- Thiago dos Santos Guedes (1250211791)
+- Pedro Henrique Leal Moura de Oliveira (1250212123)
+- Renato Vinícius Morais Coutinho (1250125635)
+- Nicole Gonçalves Moulin (1250204419)
